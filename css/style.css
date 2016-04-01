@@ -1,0 +1,512 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-distance-measure {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -28px;
+  width: 16px;
+  height: 16px;
+}
+.icon-map-marker {
+  background-image: url(../img/spritesheet.png);
+  background-position: -18px -46px;
+  width: 11px;
+  height: 16px;
+}
+.icon-orange-tick {
+  background-image: url(../img/spritesheet.png);
+  background-position: -45px 0px;
+  width: 18px;
+  height: 17px;
+}
+.icon-red-arrow {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px 0px;
+  width: 43px;
+  height: 26px;
+}
+.icon-sale-date {
+  background-image: url(../img/spritesheet.png);
+  background-position: -18px -28px;
+  width: 16px;
+  height: 16px;
+}
+.icon-sale-price {
+  background-image: url(../img/spritesheet.png);
+  background-position: -36px -28px;
+  width: 16px;
+  height: 16px;
+}
+.icon-user {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -46px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+body,
+html {
+  font-family: Roboto, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+}
+.container {
+  max-width: 968px !important;
+}
+h3 {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 500;
+  margin-top: 96px;
+  margin-left: 31px;
+  margin-bottom: 47px;
+}
+a {
+  text-decoration: underline;
+  color: #195fdd;
+}
+p {
+  font-size: 1.13em;
+  margin-bottom: 18px;
+  line-height: 160%;
+}
+.well {
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  padding: 17px 19px 33px 19px;
+  margin-bottom: 22px;
+}
+header.top {
+  height: 412px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: url("../img/top_map.gif") no-repeat top center;
+  text-align: center;
+}
+header.top .container {
+  position: relative;
+}
+header.top iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+header.top .text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+}
+header.top .text * {
+  text-shadow: 4px 4px 1px #fff;
+}
+header.top .text h1 {
+  margin-top: 91px;
+  font-size: 3.56em;
+  margin-bottom: 40px;
+}
+header.top .text h1 small {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.59em;
+}
+header.top .text p {
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+section.quick-stats {
+  text-align: center;
+}
+section.quick-stats .row {
+  margin: 0;
+}
+section.quick-stats .row .col-sm-3 {
+  position: relative;
+  padding: 0px 5px 87px 5px;
+}
+@media only screen and (max-width: 979px) {
+  section.quick-stats .row .col-sm-3 {
+    width: 25% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section.quick-stats .row .col-sm-3 {
+    width: 100% !important;
+    padding: 0px 5px 35px 5px;
+  }
+}
+section.quick-stats .row .col-sm-3.w1 {
+  width: 25.3%;
+}
+section.quick-stats .row .col-sm-3.w2 {
+  width: 26.5%;
+}
+section.quick-stats .row .col-sm-3.w3 {
+  width: 25.4%;
+}
+section.quick-stats .row .col-sm-3.w4 {
+  width: 22%;
+}
+section.quick-stats h4 {
+  font-size: 2.15em;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+section.quick-stats h4 strong {
+  font-weight: 600;
+}
+section.quick-stats a {
+  text-transform: uppercase;
+  font-size: 0.82em;
+}
+section.quick-stats p {
+  margin-bottom: 6px;
+  line-height: 140%;
+}
+section.todays-low-rates {
+  padding-top: 93px;
+  padding-bottom: 94px;
+  background: #f7f7f7;
+}
+section.todays-low-rates .row {
+  margin: 0;
+}
+section.todays-low-rates .row .col-sm-8 {
+  padding: 0px 5% 0px 13px;
+  width: 63%;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  section.todays-low-rates .row .col-sm-8 {
+    padding: 0;
+    width: 100%;
+  }
+}
+section.todays-low-rates .row .col-sm-4 {
+  padding: 6px 0px 6px 4px;
+  width: 37%;
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  section.todays-low-rates .row .col-sm-4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+section.todays-low-rates .row .col-sm-4 img {
+  display: inline-block;
+  vertical-align: middle;
+}
+section.satelite-view {
+  text-align: center;
+}
+section.satelite-view h3 {
+  margin-bottom: 41px;
+}
+section.home-details {
+  padding-bottom: 78px;
+}
+section.home-details h3 {
+  margin-bottom: 63px;
+}
+section.home-details .well .row {
+  margin: 0;
+}
+section.home-details .well .row .col-xs-4 {
+  padding: 0;
+  text-align: left;
+}
+@media only screen and (max-width: 979px) {
+  section.home-details .well .row .col-xs-4 {
+    padding: 0px 5px !important;
+    text-align: center;
+  }
+}
+section.home-details .well .row .col-xs-4.two {
+  padding-left: 19px;
+}
+section.home-details .well .row .col-xs-4.three {
+  padding-left: 37px;
+}
+section.home-details .well h4 {
+  font-size: 1.55em;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 979px) {
+  section.home-details .well h4 {
+    text-align: center;
+  }
+}
+section.home-details .well h5 {
+  text-align: left;
+  font-size: 1.58em;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 979px) {
+  section.home-details .well h5 {
+    text-align: center;
+    font-size: 1.2em;
+  }
+}
+section.home-details .row {
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  section.home-details .row .col-sm-6 {
+    padding: 0 !important;
+  }
+}
+section.home-details .row .col-sm-6.leftarea {
+  padding: 0px 0px 0px 0px;
+}
+section.home-details .row .col-sm-6.rightarea {
+  padding: 0px 0px 0px 30px;
+}
+section.home-details .row .col-xs-6 {
+  padding: 0;
+}
+section.home-details .row .col-xs-6.right {
+  font-weight: 600;
+  padding-left: 4px;
+}
+section.home-details ul.list-group {
+  border: 0;
+}
+section.home-details ul.list-group li.list-group-item {
+  border: 0;
+  font-size: 1.13em;
+  padding: 10px 0 7px 34px;
+}
+section.home-details ul.list-group li.list-group-item:nth-child(odd) {
+  background: #f7f7f7;
+}
+section.home-details .badge {
+  display: inline-block;
+  line-height: 100%;
+  background: #4c932c;
+  border-radius: 3px;
+  padding: 5px 20px;
+  color: #215906;
+  font-size: 1.4em;
+}
+section.home-details .badge span {
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+section.recently-sold {
+  background: #f7f7f7;
+  padding-bottom: 10px;
+}
+section.recently-sold h3 {
+  margin-bottom: 64px;
+}
+section.recently-sold .row {
+  margin: 0;
+}
+section.recently-sold .row .col-xs-2 {
+  padding: 0px 0px 70px 0px;
+  text-align: center;
+}
+@media only screen and (max-width: 979px) {
+  section.recently-sold .row .col-xs-2 {
+    width: 20% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section.recently-sold .row .col-xs-2 {
+    width: 100% !important;
+  }
+}
+section.recently-sold .row .col-xs-2.c1 {
+  width: 18.4%;
+}
+section.recently-sold .row .col-xs-2.c2 {
+  width: 23%;
+}
+section.recently-sold .row .col-xs-2.c3 {
+  width: 17%;
+}
+section.recently-sold .row .col-xs-2.c4 {
+  width: 24.3%;
+}
+section.recently-sold .row .col-xs-2.c5 {
+  width: 17%;
+}
+section.recently-sold .row .col-xs-2 h4 {
+  background: #e8e8e8;
+  margin: 0;
+  line-height: 100%;
+  padding: 18px 5px 15px 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+section.recently-sold .row .col-xs-2 h4 .icon {
+  margin-right: 5px;
+}
+section.recently-sold .row .col-xs-2 h5 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+section.recently-sold .row .col-xs-2 p {
+  line-height: 134%;
+}
+section.market-trends h3 {
+  margin-bottom: 63px;
+}
+section.market-trends .row {
+  margin: 0 auto;
+  max-width: 779px;
+}
+section.market-trends .row .col-sm-6 {
+  padding: 0;
+}
+@media only screen and (max-width: 768px) {
+  section.market-trends .row .col-sm-6 {
+    padding: 0 !important;
+  }
+}
+section.market-trends .row .col-sm-6:first-child {
+  padding-right: 15px;
+}
+section.market-trends .row .col-sm-6:last-child {
+  padding-left: 15px;
+}
+section.market-trends .well {
+  position: relative;
+  padding: 21px 19px 18px 15px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 979px) {
+  section.market-trends .well {
+    padding: 21px 10px 18px 10px;
+  }
+}
+section.market-trends .well p {
+  margin: 0;
+  font-size: 1em;
+}
+@media only screen and (max-width: 768px) {
+  section.market-trends .well p {
+    text-align: center !important;
+  }
+}
+section.market-trends .well p .icon {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+section.market-trends .well p.text-right .icon {
+  margin-left: 17px;
+}
+section.market-trends .well p.text-left .icon {
+  margin-left: 17px;
+}
+section.average-price h3 {
+  margin-top: 44px;
+  font-size: 1.59em;
+  margin-bottom: 32px;
+}
+section.average-price h4 {
+  margin-bottom: 16px;
+  font-size: 1.27em;
+  margin-top: 12px;
+}
+@media only screen and (max-width: 768px) {
+  section.average-price h4 {
+    text-align: center;
+  }
+}
+section.average-price .well {
+  position: relative;
+  padding: 20px 5px 8px 226px;
+  min-height: 141px;
+}
+section.average-price .well img {
+  position: absolute;
+  top: 20px;
+  left: 19px;
+}
+section.average-price .well h5 {
+  font-weight: 300;
+  font-size: 2.1em;
+  margin-bottom: 2px;
+}
+@media only screen and (max-width: 979px) {
+  section.average-price .well h5 {
+    font-size: 1.5em;
+  }
+}
+section.average-price .well .label {
+  border: 1px solid #5aba2f;
+  border-radius: 3px;
+  color: #5aba2f;
+  padding: 2px 8px;
+  font-size: 0.86em;
+}
+section.average-price .row {
+  margin: 0 auto;
+  max-width: 748px;
+}
+@media only screen and (max-width: 768px) {
+  section.average-price .row .col-sm-6 {
+    padding: 0px 0px 20px 0px !important;
+  }
+}
+section.average-price .row .col-sm-6:first-child {
+  padding: 0px 0px 0px 0px;
+}
+section.average-price .row .col-sm-6:last-child {
+  padding: 0px 0px 0px 30px;
+}
+section.summary-total {
+  padding-top: 33px;
+  padding-bottom: 145px;
+}
+@media only screen and (max-width: 768px) {
+  section.summary-total {
+    padding-bottom: 50px;
+  }
+}
+section.summary-total .row {
+  margin: 0 auto;
+  max-width: 810px;
+}
+section.summary-total .row .col-sm-4 {
+  text-align: center;
+  padding: 0;
+}
+@media only screen and (max-width: 768px) {
+  section.summary-total .row .col-sm-4 {
+    padding-bottom: 35px;
+  }
+}
+section.summary-total .row .col-sm-4 h4 {
+  font-size: 2.1em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
