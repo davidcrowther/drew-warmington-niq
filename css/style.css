@@ -11,43 +11,49 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-distance-measure {
   background-image: url(../img/spritesheet.png);
-  background-position: 0px -28px;
+  background-position: -20px -28px;
   width: 16px;
   height: 16px;
 }
-.icon-map-marker {
-  background-image: url(../img/spritesheet.png);
-  background-position: -18px -46px;
-  width: 11px;
-  height: 16px;
-}
-.icon-orange-tick {
-  background-image: url(../img/spritesheet.png);
-  background-position: -45px 0px;
-  width: 18px;
-  height: 17px;
-}
-.icon-red-arrow {
+.icon-green-arrow {
   background-image: url(../img/spritesheet.png);
   background-position: 0px 0px;
   width: 43px;
   height: 26px;
 }
+.icon-map-marker {
+  background-image: url(../img/spritesheet.png);
+  background-position: -74px -28px;
+  width: 11px;
+  height: 16px;
+}
+.icon-orange-tick {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -28px;
+  width: 18px;
+  height: 17px;
+}
+.icon-red-arrow {
+  background-image: url(../img/spritesheet.png);
+  background-position: -45px 0px;
+  width: 43px;
+  height: 26px;
+}
 .icon-sale-date {
   background-image: url(../img/spritesheet.png);
-  background-position: -18px -28px;
+  background-position: -38px -28px;
   width: 16px;
   height: 16px;
 }
 .icon-sale-price {
   background-image: url(../img/spritesheet.png);
-  background-position: -36px -28px;
+  background-position: -56px -28px;
   width: 16px;
   height: 16px;
 }
 .icon-user {
   background-image: url(../img/spritesheet.png);
-  background-position: 0px -46px;
+  background-position: 0px -47px;
   width: 16px;
   height: 16px;
 }
