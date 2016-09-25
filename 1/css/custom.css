@@ -1,0 +1,25 @@
+/*!---------- PLACE YOUR CUSTOM STYLES AND OVERRIDES HERE ----------*/
+
+ul {
+  padding-left: 40px;
+  list-style: disc;
+}
+h2, h3, h4 {
+  padding-bottom: 14px;
+}
+
+select {
+  height: 54px;
+  line-height: 48px;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #888888;
+  font-weight: 400;
+  width: 100%;
+  left: 0 !important;
+  right: 0 !important;
+}

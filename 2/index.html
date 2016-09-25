@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="Agents is a Responsive Landing page Template for real estate, insurance, legal agents for deals and  lead generation etc..">
+<link rel="icon" href="fevicon.ico">
+<title>2 Neighborhood IQ Free Home Value Report</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Agent CSS -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Custom Google Font : Open Sans -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Hedder Section-->
+<section class="top_hedder" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12"> 
+        <!--logo-->
+        <div class="logo" style="padding-bottom: 30px;"> <img src="images/logo.png" alt=""> </div>
+        <!--logo--> 
+        <!-- Hero Title -->
+        <h1 class="main_titile">Knowing Your Property’s True Value</h1>
+        <!-- Hero Title Close --> 
+        
+        <!-- Sub Hero Title -->
+        <h2 class="sub_title">Could Make a Huge Difference When Selling Your Home, Getting Married, Or Even On Tax Day.</h2>
+        <div id="underline"> <img src="images/underline.png" alt=""> </div>
+        
+        <!-- Sub Hero Title Close --> 
+      </div>
+      
+      <!-- Agent Pic -->
+      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12"> 
+        <!-- Way Arrow -->
+        <div id="arrow"> <img src="images/arrow.png" alt="Arrow"></div>
+        <!-- Way Arrow End --> 
+        
+        <img src="images/agent_pic.png" alt="Man in suit" class="img-responsive"> </div>
+      <!-- Agent Pic Close --> 
+      
+      <!--  Get a free consultation! -->
+      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <div class="form">
+          <h4>Access Your Home And Neighborhood Report</h4>
+          <div class="form-group">
+            <label>Street Address</label>
+            <input type="text" id="txtAddress" name="txtAddress" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Reason for requesting the report *</label>
+            <select name="txtPurpose" id="txtPurpose" class="form-control" required>
+                <option value="">Click to select ...</option>
+                <option Value="selling">Thinking about selling your house</option>
+                <option Value="refinancing">Thinking about refinancing</option>
+                <option Value="buying">Thinking about buying a house</option>
+                <option Value="looking">Just curious</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="text" id="txtEmail" name="txtEmail" class="form-control">
+          </div>
+          <div id="form-errors"></div>
+          <div class="form-group">
+            <input type="submit" value="SHOW MY FREE REPORT »" name="btn" id="em_submit" onClick="send_mail();">
+          </div>
+          <div id="form-success"></div>
+          <p style="font-size: 11px; line-height: 14px;">* This information helps us provide you a customized report. <a href="https://www.neighborhoodiq.com/privacy.html">We don’t share</a> your personal info with anyone.</p>
+        </div>
+      </div>
+      <!--  Get a free consultation! Close --> 
+      
+    </div>
+  </div>
+</section>
+<!--Hedder Section Close--> 
+
+<!--Your Goal!-->
+<section class="gola">
+  <div class="container"> 
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <h3 class="section-hed-sub">Why do you need to know</h3>
+      <h2 class="section-hed">The value of your home?</h2>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <img width="108" height="107" alt="" src="images/like.png" >
+        <h4>Set the right price</h4>
+        <p>Know the true value of your home and you will be able to sell your home faster, or for a higher price...</p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <img width="108" height="107" alt="" src="images/money.png">
+        <h4>Refinancing</h4>
+        <p>If you are planning on getting your home re-financed, knowing the true value of your home may help you negotiate better terms...</p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <img width="108" height="107" alt="" src="images/diamond.png">
+        <h4>Marriage matters</h4>
+        <p>Division of assets is a major part of divorce. Knowing the true value of your home is crucial to arriving at a fair settlement...</p>
+      </div>
+      <!-- /.col-lg-4 --> 
+    </div>
+    <!-- /.row --> 
+  </div>
+</section>
+<!--Your Goal Close--> 
+
+<!--TESTIMONIALS-->
+<section class="testmonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> 
+        <!--Testmonial Content-->
+        <p> <img src="images/quote.png" alt=""> The free home value report from Neighborhood IQ helped me make the decision to stay in our home and refinance, as opposed to trying to sell in a down market. I was able to refinance, save money every month with a smaller payment, and take advantage of a lower rate. <img src="images/quote1.png"   alt=""></p>
+        <!--Testmonial Content--> 
+        <!--Testmonial image and Name-->
+        <div class="test_img"> <img src="images/niq-testimonial1.png" alt="">
+          <h5> Ralph Jones </h5>
+        </div>
+        <!--Testmonial image and Name--> 
+      </div>
+    </div>
+  </div>
+</section>
+<!--TESTIMONIALSl Close--> 
+
+<!--Video Demo-->
+<section class="video_demo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-hed-sub">Do You Know What Your Home</h3>
+        <h2 class="section-hed">Is Really Worth?</h2>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <iframe src="https://www.youtube-nocookie.com/embed/W2Z3p9OUevE?rel=0&showinfo=0" height="244" class="video"></iframe>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <p>For most Americans, their home is the most valuable single asset they’ll ever own. And yet, over 90% of the population has never had their home appraised—aside from the initial appraisal at the time of purchase.</p>
+
+      <p>But did you know that a home appraisal can…</p>
+
+      <ul>
+      <li>Save you money, particularly when buying or selling a home?</li>
+      <li>Help you get your home re-financed?</li>
+      <li>Spare some costs in the event of a divorce?</li>
+      <li>Reduce your tax bill (if you live in a jurisdiction where property taxes are set by home value)?</li>
+      </ul>
+    </div>
+    <div class="row" style="clear:both; padding-top: 40px;">
+      <div class="col-md-8 col-md-offset-2">
+        <h5>Most homeowners don’t know that the need for appraisals doesn’t end the minute you buy a home.</h5>
+
+        <p>In fact, getting a valuation is all the more important the longer you own your home.</p>
+
+        <p>After buying a home, market conditions change. Your home prices change. It may increase dramatically in value—even more than the real estate listings for comparable properties suggest. Renovations may increase the value of your home.</p>
+
+        <p>Your home value may be much more than you think it is.</p>
+
+        <p>Claim your Neighborhood IQ free report now to discover the true value of your home—instantly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Video Demo--> 
+
+<!--Down TESTIMONIALS-->
+<section class="testmonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> 
+        <!--Testmonial Content-->
+        <p> <img src="images/quote.png" alt=""> When it was time for more space I didn’t know where to start. Neighborhood IQ instantly provided an accurate home value report for my house, and helped me get started—now if they’d just come and help pack the boxes! <img src="images/quote1.png"   alt=""></p>
+        <!--Testmonial Content--> 
+        <!--Testmonial image and Name-->
+        <div class="test_img"> <img src="images/niq-testimonial3.png" alt="">
+          <h5> Amelia Pond </h5>
+        </div>
+        <!--Down Testmonial image and Name--> 
+      </div>
+    </div>
+  </div>
+</section>
+<!--TESTIMONIALSl Close--> 
+
+<!--REQUEST A FREE CONSULTATION-->
+<section class="request">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h4>Claim your Neighborhood IQ free report now to discover the true value of your home—instantly.</h4>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+        <a href="#top" class="gototop">  <div class="btn btn-danger submit"> SHOW MY FREE REPORT » </div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--REQUEST A FREE CONSULTATION  Close--> 
+
+<!--FOOTER-->
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="/"><img alt="Logo" class="" src="images/logo.png"></a>
+        <h6>
+        iLeads.com, LLC. <br/>
+        567 San Nicolas Drive, Ste. 180<br/>
+        Newport Beach, CA. 92660
+        </h6>
+
+        <h6> Copyright © 2016. iLeads.com. All rights reserved </h6>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FOOTER--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/easing.js"></script> 
+<script src="js/custom.js"></script> 
+<!-- Scroll to Explore --> 
+</body>
+</html>

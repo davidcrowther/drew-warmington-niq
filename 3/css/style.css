@@ -1,0 +1,4916 @@
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Bold.eot.html');
+	src: local('?'), url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Bold.woff') format('woff'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Bold.ttf.html') format('truetype'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Bold.svg.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Light';
+	src: url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Light.eot.html');
+	src: local('?'), url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Light.woff') format('woff'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Light.ttf.html') format('truetype'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Light.svg.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Regular.eot.html');
+	src: local('?'), url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Regular.woff') format('woff'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Regular.ttf.html') format('truetype'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Regular.svg.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Semibold';
+	src: url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Semibold.eot.html');
+	src: local('?'), url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Semibold.woff') format('woff'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Semibold.ttf.html') format('truetype'), url('fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Semibold.svg.html') format('svg');
+
+}
+
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/gotham-book.eot');
+	src: local('?'), url('../fonts/gotham-book.woff') format('woff'), url('../fonts/gotham-book.ttf') format('truetype'), url('../fonts/gotham-book.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Gothamlight';
+	src: url('../fonts/gotham-light.eot');
+	src: local('?'), url('../fonts/gotham-light.woff') format('woff'), url('../fonts/gotham-light.ttf') format('truetype'), url('../fonts/gotham-lightk.svg.html') format('svg');
+	}
+@font-face {
+	font-family: 'Gothamitalic';
+	src: url('../fonts/gotham-bookitalic.eot');
+	src: local('?'), url('../fonts/gotham-bookitalic.woff') format('woff'), url('../fonts/gotham-bookitalic.ttf') format('truetype'), url('../fonts/gotham-bookitalic.svg') format('svg');
+}
+@font-face {
+	font-family: 'Gothamultra';
+	src: url('../fonts/gotham-ultra.eot');
+	src: local('?'), url('../fonts/gotham-ultra.woff') format('woff'), url('../fonts/gotham-ultra.ttf') format('truetype'), url('../fonts/gotham-ultra.svg') format('svg');
+}
+@font-face {
+	font-family: 'Conv_Gotham-Bold';
+	src: url('../fonts/Gotham-Bold.eot');
+	src: local('?'), url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf') format('truetype'), url('../fonts/Gotham-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_HouseSlant-Regular';
+	src: url('../fonts/HouseSlant-Regular.eot');
+	src: local('?'), url('../fonts/HouseSlant-Regular.woff') format('woff'), url('../fonts/HouseSlant-Regular.ttf') format('../truetype'), url('../fonts/HouseSlant-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Calluna-Regular';
+	src: url('../fonts/Calluna-Regular.eot');
+	src: local('?'), url('../fonts/Calluna-Regular.woff') format('woff'), url('../fonts/Calluna-Regular.ttf') format('truetype'), url('../fonts/Calluna-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Calluna-It';
+	src: url('../fonts/Calluna-It.eot');
+	src: local('?'), url('../fonts/Calluna-It.woff') format('woff'), url('../fonts/Calluna-It.ttf') format('truetype'), url('../fonts/Calluna-It.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	background: #21333c; 
+
+	}
+	
+.home
+{
+	background: #ffffff url("../images/bodybg.jpg") top center no-repeat; 
+}
+#headerwrapper
+{
+	width:775px;
+	height:119px;
+	padding:0;
+	margin:0 auto;
+	padding-top:34px;
+}
+#headerwrapperthanks
+{
+	width:775px;
+	height:60px;
+	padding:0;
+	margin:0 auto;
+	padding-top:22px;
+}
+#logo
+{
+	width:775px;
+	margin:0;
+	padding:0;
+	height:60px;
+	background: url("../images/logo.png") top center	no-repeat;
+}
+#logothanks
+{
+	width:775px;
+	margin:0;
+	padding:0;
+	height:60px;
+	background: url("../images/logothanks.png") top center	no-repeat;
+}
+#formwrapper
+{
+	width:100%;
+	height:316px;
+	padding:0;
+	margin:0;	
+	overflow:hidden;
+
+}
+#submitpages
+{
+	width:870px;
+	height:896px;
+	padding:0;
+	margin:0 auto;	
+	overflow:hidden;
+	padding-top:22px;
+}
+#submitpages .left
+{
+	width:870px;
+	height:60px;
+	padding:0;
+	margin:0;	
+	float:left;
+
+}
+#submitpages .page2heading
+{
+	width:870px;
+	height:60px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background: url("../images/page2heading.png") top center no-repeat;
+}
+#submitpages .right1 .heading2
+{
+	display:none;
+}
+#submitpages .top
+{
+	display:none;
+}
+#submitpages .page3heading
+{
+	width:870px;
+	height:60px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background: url("../images/page3heading.png") top center no-repeat;
+}
+#submitpages .page4heading
+{
+	width:870px;
+	height:60px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background: url("../images/page4heading.png") top center no-repeat;
+}
+
+#submitpages .right
+{
+	width:867px;
+	height:800px;
+	padding:0;
+	margin:0;	
+	float:left;
+}
+#submitpages .right1
+{
+	width:867px;
+	min-height:600px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background:#ffffff;
+		border:1px solid #b4b4b4;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+	
+}
+
+#submitpages .right1 .heading
+{
+	width:869px;
+	height:81px;
+	padding:0;
+	margin:0;
+	padding-top:39px;
+	color:#454545;
+	font-size:58px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-2px;
+	line-height:100%;
+}
+#submitpages .right1 .map
+{
+	width:869px;
+	height:314px;
+	padding:0;
+	margin:0;
+	background:#eeeeee;
+}
+
+#submitpages .right1 .addressdisplay
+{
+	width:380px;
+	min-height:109px;
+	padding:0;
+	margin:0;
+	padding-top:43px;
+	color:#454545;
+	font-size:32px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-1px;
+	float:left;
+}
+#submitpages .right1 .buttons
+{
+	width:450px;
+	height:70px;
+	padding:0;
+	margin:0;
+	float:left;
+	padding-top:60px;
+	padding-left:7px;
+}
+
+#submitpages .right1 .buttons .button1
+{
+	width:209px;
+	height:52px;
+	padding:0;
+	margin:0;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	background:#06c09c;
+	color:#ffffff;
+	font-size:20px;
+	font-family: 'GothamBook';
+	border:none;
+	float:left;
+	
+}
+#submitpages .right1 .buttons .button2
+{
+	display:block;
+	width:209px;
+	height:38px;
+	padding:0;
+	margin:0;
+	margin-left:10px;
+	padding-top:14px;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	background:#d17373;
+	color:#ffffff;
+	font-size:20px;
+	font-family: 'GothamBook';
+	text-align:center;
+	border:none;
+	text-decoration:none;
+	float:left;
+}
+
+#submitpages .right2
+{
+	width:870px;
+	height:603px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background:#ffffff;
+		border:1px solid #b4b4b4;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+}
+
+#submitpages .right2 .heading2
+{
+	display:block;
+	width:870px;
+	height:129px;
+	padding:0;
+	margin:0;
+	padding-top:40px;
+	color:#454545;
+	font-size:53px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	overflow:hidden;
+
+}
+#submitpages .right2 .heading22
+{
+	display:none;
+}
+
+#submitpages .right2 .inputs
+{
+	width:484px;
+	height:313px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right2 .label
+{
+	width:182px;
+	height:44px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:31px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	float:left;
+}
+#submitpages .right2 .inputbox
+{
+	width:298px;
+	height:23px;
+	padding:0;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:#454545;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:2px solid #868686;
+	float:left;
+}
+#submitpages .right2 select
+{
+	width:302px;
+	height:44px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:24px;	
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+.inputserror
+{
+	background:#ffffff url("../images/erroricon.png") right center no-repeat;
+}
+
+.validationerror
+{
+	display:none;
+	width:484px;
+	height:22px !important;
+	padding:0;
+	margin:0;
+	margin-top:-28px;	
+	padding-top:4px;
+	color:#ffffff;
+	background:#cf4e4e;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	position:absolute;
+}
+
+#submitpages .right2 .button
+{
+	width:383px;
+	height:73px;
+	padding:0;
+	margin:0;
+	padding-left:285px;
+	text-align:left;
+}
+#submitpages .right2 .button a
+{
+	display:block;
+	width:339px;
+	height:55px;
+	padding:0;
+	padding-top:18px;
+	margin:0;
+	color:#ffffff;
+	font-size:30px;
+	font-family:'Conv_Gotham-Bold';	
+	background:url("../images/nextbutton.png") top center no-repeat;
+	border:none;
+	text-align:center;
+	text-decoration:none;
+	
+}
+#submitpages .right2 .buttonbottom
+{
+	display:none;
+	
+}
+
+
+#submitpages .right3
+{
+	width:870px;
+	height:370px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background:#ffffff;
+		border:1px solid #b4b4b4;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+}
+
+#submitpages .right3 .heading
+{
+	display:block;
+	width:867px;
+	height:94px;
+	padding:0;
+	margin:0;
+	padding-top:40px;
+	color:#454545;
+	font-size:53px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+
+}
+#submitpages .right3 .heading2
+{
+	display:none;
+}
+#submitpages .right3 .inputs
+{
+	width:484px;
+	height:141px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right3 .label
+{
+	width:182px;
+	height:44px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:31px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	float:left;
+}
+#submitpages .right3 .inputbox
+{
+	width:298px;
+	height:23px;
+	padding:0;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:#454545;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:2px solid #868686;
+	float:left;
+}
+#submitpages .right3 select
+{
+	width:302px;
+	height:44px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:24px;	
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+#submitpages .right3 .button
+{
+	width:383px;
+	height:73px;
+	padding:0;
+	margin:0;
+	padding-left:265px;
+	text-align:left;
+	overflow:hidden;
+}
+#submitpages .right3 .button button
+{
+	width:339px;
+	height:73px;
+	
+	padding:0;
+	margin:0;
+	padding-top:73px;
+	color:#ffffff;
+	font-size:30px;
+	font-family:'Conv_Gotham-Bold';
+	background:url("../images/nextbutton2.png") top center no-repeat;
+	border:none;
+	
+}
+
+#submitpages .right4
+{
+	width:870px;
+	height:603px;
+	padding:0;
+	margin:0;	
+	float:left;
+	background:#ffffff;
+	border:1px solid #b4b4b4;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+}
+
+#submitpages .right4 .heading
+{
+	width:870px;
+	height:74px;
+	padding:0;
+	margin:0;
+	padding-top:58px;
+	color:#454545;
+	font-size:59px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+	line-height:120%;
+
+}
+#submitpages .right4 .subheading
+{
+	width:800px;
+	height:232px;
+	padding:0;
+	margin:0;
+	padding-left:35px;
+	padding-right:35px;
+	color:#454545;
+	font-size:32px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	line-height:120%;
+}
+
+
+#submitpages .right4 .heading2
+{
+	width:800px;
+	height:53px;
+	padding:0;
+	margin:0;
+	padding-left:35px;
+	padding-right:35px;
+	color:#454545;
+	font-size:38px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+	line-height:100%;
+}
+#submitpages .right4 .icons
+{
+	width:420px;
+	height:131px;
+	padding:0;
+	margin:0 auto;
+	
+}
+#submitpages .right4 .icons a 
+{
+	display:block;
+	padding-right:9px;
+	float:left;
+}
+
+#submitpages .bottomtext
+{
+	width:645px;
+	height:81px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:23px;
+	font-family: 'Proxima Nova Regular';
+	text-align:center;
+	padding-left:169px;
+	line-height:100%;
+}
+#submitpages .bottombox
+{
+	width:342px;
+	height:33px;
+	padding:0;
+	margin:0;
+	padding-left:49px;
+	padding-top:17px;
+	padding-bottom:17px;
+	
+	font-size:23px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Regular';
+	margin-left:188px;
+		border:2px solid #ffffff;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:none;
+}
+	
+#form
+{
+	width:948px;
+	height:468px;
+	padding:0;
+	margin:0 auto;	
+}
+#form2
+{
+	width:867px;
+	height:486px;
+	padding:0;
+	margin:0 auto;	
+}
+#submit
+{
+	width:906px;
+	height:390px;
+	padding:0;
+	margin:0 auto;	
+}
+#formheading
+{
+	width:775px;
+	height:72px;
+	padding:0;
+	margin:0 auto;	
+	color:#ffffff;
+	font-size:69px;
+	font-family: 'Proxima Nova Bold';
+	text-align:center;
+	letter-spacing:-1px;
+        line-height:80%;
+}
+#hidden-resizer
+{
+	font-size:69px;
+	font-family: 'Proxima Nova Bold';
+	letter-spacing:-1px;
+	line-height:90%;
+}
+#formsubheading
+{
+	width:775px;
+	height:62px;
+	padding:0;
+	margin:0 auto;	
+	color:#ffffff;
+	font-size:33px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+}
+#form2heading
+{
+	width:867px;
+	height:137px;
+	padding:0;
+	margin:0;	
+	background:url("../images/foundheading.png.html") top center no-repeat;
+	margin-top:136px;
+	
+}
+#submitheading
+{
+	width:906px;
+	height:145px;
+	padding:0;
+	margin:0;	
+	background:url("../images/submitheading.png") top center no-repeat;
+	margin-top:222px;
+	
+}
+#submitsubheading1
+{
+	width:948px;
+	height:40px;
+	padding:0;
+	margin:0;	
+
+	text-align:center;
+	font-family:'Proxima Nova Bold';
+	font-size:28px;
+	color:#ffffff;
+	
+}
+#form2left
+{
+	width:423px;
+	height:317px;
+	padding:0;
+	margin:0;
+	float:left;
+	padding-left:85px;
+
+}
+#form2right
+{
+	width:334px;
+	height:322px;
+	padding:0;
+	margin:0;
+	float:left;
+	padding-left:24px;
+	background:url("../images/arrow.png.html") 296px 244px no-repeat;
+
+}
+
+#form2bottomwrapper
+{
+	width:700px;
+	height:200px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	font-family:'Proxima Nova Regular';
+
+	font-size:16px;
+	font-weight:normal;
+	color:#ffffff;
+	line-height:140%;
+}
+
+
+#submitsubheading
+{
+	width:948px;
+	height:62px;
+	padding:0;
+	text-align:center;
+	font-family:'Proxima Nova Regular';
+	font-weight:normal;
+	font-size:29px;
+	font-weight:normal;
+	color:#ffffff;
+	letter-spacing:-1px;
+	padding-top:8px;
+	
+}
+.red
+{
+	color:#95b3d1;
+}
+#addresswrapper
+{
+	width:785px;
+	height:65px;
+	padding:0;
+	margin:0 auto;
+	
+}
+#addresswrapper .button
+{
+	width:269px;
+	height:65px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:#51c124 url("../images/findhomebutton.png") bottom center no-repeat;
+	border:0;
+	
+}
+
+#addressbottom
+{
+	width:775px;
+	height:17px;
+	padding:0;
+	margin:0 auto;
+	margin-top:24px;
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Proxima Nova Regular';
+	text-align:center;
+	
+}
+
+#homeicons2
+{
+	width:695px;
+	height:282px;
+	padding:0;
+	margin:0 auto;
+	margin-top:76px;
+	background:url("../images/homeicons2.png") top center no-repeat;
+}
+
+#testimonials
+{
+	width:695px;
+	height:282px;
+	padding:0;
+	margin:0 auto;
+	margin-top:76px;
+}
+#testimonials .cell1
+{
+	width:352px;
+	height:166px;
+	padding:0;
+	margin:0;
+	background:url("../images/testiquotes.png") top left no-repeat;
+	float:left;
+}
+#testimonials .cell2
+{
+	width:310px;
+	height:141px;
+	padding:0;
+	margin:0;
+	margin-top:25px;
+	background:url("../images/testiquotes.png") top left no-repeat;
+	float:left;
+	margin-left:30px;
+}
+#testimonials .cell1 .text
+{
+	width:315px;
+	height:113px;
+	padding:0;
+	margin:0;
+	padding-left:37px;
+	color:#ffffff;
+	font-size:17px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	letter-spacing:1px;
+}
+#testimonials .cell2 .text
+{
+	width:290px;
+	height:88px;
+	padding:0;
+	margin:0;
+	padding-left:37px;
+	color:#ffffff;
+	font-size:17px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+}
+#testimonials .cell1 .img
+{
+	width:68px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi1photo.png") top left no-repeat;
+}
+ #testimonials .cell2 .img
+{
+	width:68px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi2photo.png") top left no-repeat;
+}
+#testimonials .cell1 .author, #testimonials .cell2 .author
+{
+	width:193px;
+	height:41px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#testimonials .cell1 .author .name, #testimonials  .cell2 .author .name
+{
+	width:193px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	float:left;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Conv_Gotham-Bold';
+	text-transform:uppercase;
+	line-height:100%;
+	opacity: 0.85;
+}
+#testimonials .cell1 .author .tgaline, #testimonials  .cell2  .author .tgaline
+{
+	width:193px;
+	height:21px;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+	font-size:13px;
+	font-family: 'GothamBook';
+	line-height:100%;
+	opacity: 0.85;
+}
+#forminputswrapper
+{
+	width:816px;
+	height:49px;
+	padding:0;
+	margin:0;
+	
+}
+
+#formbutton
+{
+	width:249px;
+	height:86px;
+	padding:0;
+	margin:0;
+	margin-left:290px;
+	margin-top:25px;
+	padding-right:77px;
+	background:url("../images/arrow.png.html") top right no-repeat;
+	text-align:center;
+	color:#ffffff;
+	font-family:'Proxima Nova Semibold';
+	font-size:10px;
+	text-transform:uppercase;
+	
+}
+.address
+{
+	width:486px;
+	height:26px;
+	padding:0;
+	margin:0;
+	padding-left:21px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:22px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+
+.addressinfo1
+{
+	display:none;
+	position:absolute;
+	width:507px;
+	height:24px;
+	padding:0;
+	padding-top:8px;
+	margin:0;
+	margin-top:-33px;
+	color:#3e4346;
+	font-family:'Proxima Nova Light';
+	font-size:14px;
+	color:#ffffff;
+	background:#6fa73a;
+	line-height:100%;
+	text-align:center;
+	
+}
+.addressinfo2
+{
+	display:none;
+	position:absolute;
+	width:427px;
+	height:24px;
+	padding:0;
+	padding-top:8px;
+	margin:0;
+	color:#3e4346;
+	font-family:'Proxima Nova Regular';
+	font-size:16px;
+	color:#ffffff;
+	background:#6fa73a;
+	line-height:100%;
+	text-align:center;
+	margin-top:-33px;
+}
+
+.address_unit_hash
+{
+	width:406px;
+	height:26px;
+	padding:0;
+	margin:0;
+	padding-left:21px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:22px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+.unit_hash
+{
+	width:80px;
+	height:26px;
+	padding:0;
+	margin:0;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:22px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+
+.forminputs
+{
+	width:229px;
+	height:16px;
+	padding:16px;
+	margin:0;
+	color:#6c6c6c;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+
+	float:left;
+
+	border:0;
+	line-height:100%;
+	letter-spacing:2px;
+
+}
+.form2inputs
+{
+	width:214px;
+	height:16px;
+	padding:16px;
+	margin:0;
+	margin-bottom:8px;
+	color:#6c6c6c;
+	font-family:'Proxima Nova Regular';
+	font-size:20px;
+	font-weight:normal;
+
+	float:left;
+
+	border:0;
+	line-height:100%;
+
+
+}
+.form2select
+{
+	width:246px;
+	height:48px;
+	padding:12px;
+	margin:0;
+	color:#6c6c6c;
+	font-family:'Proxima Nova Regular';
+	font-size:20px;
+	font-weight:normal;
+
+	float:left;
+	border:0;
+	margin-bottom:22px;
+	line-height:100%;
+
+
+}
+.formselect
+{
+	width:165px;
+	height:48px;
+	padding:15px;
+	margin:0;
+	color:#6c6c6c;
+	font-family:'Proxima Nova Regular';
+	font-size:14px;
+	font-weight:normal;
+	text-transform:uppercase;	
+	float:left;
+	border:0;
+	margin-right:20px;
+	line-height:100%;
+	letter-spacing:1px;
+	margin-bottom:17px;
+
+}
+#form2button
+{
+	width:246px;
+	height:65px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+#form2bottom
+{
+	width:246px;
+	height:10px;
+	padding:0;
+	margin:0;
+	padding-top:5px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	font-size:12px;
+	font-weight:normal;
+	float:left;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}#map
+{
+	width:425px;
+	height:273px;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	float:left;
+}
+
+
+#footerwrapper
+{
+	width:100%;
+	height:100px;
+	padding:0;
+	margin:0;
+	background:#cccccc;
+	min-width:930px !important;
+	overflow:hidden;
+	padding-top:32px;
+
+}
+#footer
+{
+	width:849px;
+	height:85px;
+	padding:0;
+	margin:0 auto;
+}
+
+#footericons
+{
+	width:85px;
+	height:45px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:url("../images/footericons.png") top right no-repeat;
+
+}
+#footerlogo
+{
+	width:760px;
+	height:29px;
+	padding:0;
+	margin:0;
+	background:url("../images/footerlogo.png") top left no-repeat;
+
+}
+#copyright
+{
+	width:760px;
+	height:61px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	padding-top:5px;
+	float:left;
+
+}
+#copyright2
+{
+	width:760px;
+	height:75px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	padding-top:4px;
+	float:left;
+
+}
+#copyright a , #copyright2 a
+{
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	text-decoration:underline;
+	
+}
+
+
+#copyright.footercustom,#copyright2.footercustom{
+	width:60%!important;
+}
+
+#footericons img{
+	width:auto;
+	max-width:100%;
+	
+}
+#footericons> div{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:right;
+	
+}
+
+#footericons.footercustom{
+	width:40%!important;
+	padding-right:85px;
+	box-sizing:border-box;
+	display:table;
+	table-layout:fixed;
+	background-position:right center;
+}
+
+
+#toswrapper
+{
+	width:865px;
+	height:700px;
+	padding:0;
+	margin:0 auto;
+}
+
+#tosheading
+{
+	width:865px;
+	height:47px;
+	padding:0;
+	padding-top:51px;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Light';
+	font-size:30px;
+	line-height:100%;
+	
+}
+#tostextbg
+{
+	width:865px;
+	height:435px;
+	padding:0;
+	background:#ffffff;
+	opacity:.87;
+	
+}
+#tostext
+{
+	width:865px;
+	height:435px;
+	padding:0;
+	margin:0;
+	color:#575757;
+	font-family:'Proxima Nova Light';
+	font-size:10px;
+
+}
+.content{
+	overflow: auto;
+	position: relative;
+	width: 865px;
+	height: 435px;
+	padding:20px;
+	background:none;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+#tosbuttonwrapper
+{
+	width:865px;
+	height:174px;
+	padding:0;
+	margin:0;
+	padding-top:31px;
+	text-align:center;
+}
+
+.tosbutton
+{
+	width:300px;
+	height:64px;
+	padding:0;
+	margin:0;
+	background:#53e5ad url("../images/buttonbg.jpg.html") bottom left repeat-x;
+	font-size:24px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	border:none;
+	letter-spacing:-1px;
+}
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c7{
+  min-height: 1px;
+}
+
+
+.clr
+{
+	clear:both;
+
+}
+
+/** begin 600 **/
+@media screen and (max-width: 600px){
+
+.addressinfo1, .addressinfo2
+{
+	width:0px;
+	height:0px;
+	font-size:0px;
+}
+
+	
+.home
+{
+	background: #ffffff url("../images/bodybg600.jpg") top center no-repeat; 
+}
+	#headerwrapper
+	{	
+	display:none;
+	}
+	#formwrapper
+	{
+		width:534px;
+		height:450px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#form
+	{
+		width:534px;
+		height:450px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#formheading
+	{
+		width:534px;
+		height:144px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:84px;
+		font-family: 'Proxima Nova Bold';
+		text-align:center;
+		letter-spacing:-1px;
+		line-height:80%;
+		padding-top:69px;
+	}
+        #hidden-resizer
+{
+	font-size:84px;
+	font-family: 'Proxima Nova Bold';
+	letter-spacing:-1px;
+	line-height:80%;
+}
+	#formsubheading
+	{
+		width:534px;
+		height:87px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:38px;
+		font-family: 'Proxima Nova Light';
+		text-align:center;
+	}
+#addresswrapper
+{
+	width:534px;
+	height:65px;
+	padding:0;
+	margin:0 auto;
+	
+}
+.address
+{
+	width:364px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-left:21px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:20px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+.address_unit_hash
+{
+	width:294px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-left:21px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:20px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+.unit_hash
+{
+	width:70px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:20px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	
+
+
+}
+
+#addresswrapper .button
+{
+	width:147px;
+	height:65px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:#51c124 url("../images/findhomebutton600.png") bottom center no-repeat;
+	border:0;
+	
+}
+
+	#addressbottom
+	{
+		display:none;
+	}
+	
+	#homeicons2
+	{
+		width:534px;
+		height:450px;
+		padding:0;
+		margin:0 auto;
+		background:url("../images/homeicons2600.png") top center no-repeat;
+	}
+#testimonials
+{
+	width:352px;
+	height:450px;
+	padding:0;
+	margin:0 auto;
+
+}
+#testimonials .cell1
+{
+	width:352px;
+	height:200px;
+	padding:0;
+	margin:0;
+	background:url("../images/testiquotes.png") top left no-repeat;
+	clear:both;
+}
+#testimonials .cell2
+{
+	clear:both;
+	width:310px;
+	height:141px;
+	padding:0;
+	margin:0 auto;
+	margin-top:53px !important;
+	background:url("../images/testiquotes.png") top left no-repeat;
+	float:none;
+}
+#testimonials .cell1 .text
+{
+	width:315px;
+	height:113px;
+	padding:0;
+	margin:0;
+	padding-left:37px;
+	color:#ffffff;
+	font-size:17px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	letter-spacing:1px;
+}
+#testimonials .cell2 .text
+{
+	width:290px;
+	height:88px;
+	padding:0;
+	margin:0;
+	padding-left:37px;
+	color:#ffffff;
+	font-size:17px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+}
+#testimonials .cell1 .img
+{
+	width:68px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi1photo.png") top left no-repeat;
+}
+ #testimonials .cell2 .img
+{
+	width:68px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi2photo.png") top left no-repeat;
+}
+#testimonials .cell1 .author, #testimonials .cell2 .author
+{
+	width:193px;
+	height:41px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#testimonials .cell1 .author .name, #testimonials  .cell2 .author .name
+{
+	width:193px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	float:left;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Conv_Gotham-Bold';
+	text-transform:uppercase;
+	line-height:100%;
+	opacity: 0.85;
+}
+#testimonials .cell1 .author .tgaline, #testimonials  .cell2  .author .tgaline
+{
+	width:193px;
+	height:21px;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+	font-size:13px;
+	font-family: 'GothamBook';
+	line-height:100%;
+	opacity: 0.85;
+}
+	
+#footerwrapper
+{
+	width:100%;
+	height:77px;
+	min-width:543px !important;
+	padding:0;
+	margin:0;
+	background:#cccccc;
+	overflow:hidden;
+	padding-top:19px;
+
+}
+#footer
+{
+	width:543px;
+	height:77px;
+	padding:0;
+	margin:0 auto;
+}
+
+#footericons
+{
+	width:103px;
+	height:40px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:url("../images/footericons600.png") center center no-repeat;
+
+}
+#footerlogo
+{
+	width:543px;
+	height:18px;
+	padding:0;
+	margin:0;
+	background:url("../images/footerlogo600.png.html") top left no-repeat;
+
+}
+#copyright
+{
+	width:440px;
+	height:15px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	padding-top:5px;
+	float:left;
+
+}
+#copyright2
+{
+	width:440px;
+	height:30px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:0px;
+	padding-top:4px;
+	float:left;
+
+}
+#copyright a , #copyright2 a
+{
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	text-decoration:underline;
+	
+}
+
+
+#toswrapper
+{
+	width:370px;
+	height:700px;
+	padding:0;
+	margin:0 auto;
+}
+
+#tosheading
+{
+	width:370px;
+	height:37px;
+	padding:0;
+	padding-top:51px;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Light';
+	font-size:26px;
+	line-height:100%;
+	
+}
+#tostextbg
+{
+	width:370px;
+	height:435px;
+	padding:0;
+	background:#ffffff;
+	opacity:.87;
+	
+}
+#tostext
+{
+	width:370px;
+	height:435px;
+	padding:0;
+	margin:0;
+	color:#575757;
+	font-family:'Proxima Nova Light';
+	font-size:10px;
+
+}
+.content{
+	overflow: auto;
+	position: relative;
+	width: 370px;
+	height: 435px;
+	padding:20px;
+	background:none;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+#tosbuttonwrapper
+{
+	width:370px;
+	height:174px;
+	padding:0;
+	margin:0;
+	padding-top:31px;
+	text-align:center;
+}
+
+.tosbutton
+{
+	width:300px;
+	height:64px;
+	padding:0;
+	margin:0;
+	background:#53e5ad url("../images/buttonbg.jpg.html") bottom left repeat-x;
+	font-size:24px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	border:none;
+	letter-spacing:-1px;
+}
+	
+	/* end page1 ***/
+	
+/** pae 2 begins **/ 
+
+#submitpages
+{
+	width:100%;
+	height:auto;
+	min-height:610px;
+	min-width:540px;
+	padding:0;
+	margin:0 auto;	
+	overflow:hidden;
+	padding-top:17px;
+
+}
+#submitpages .left
+{
+	display:none;
+}
+#submitpages .top
+{
+	display:block;
+	width:540px;
+	height:50px;
+	padding:0;
+	margin:0 auto;
+}
+#submitpages .top .lefttop
+{
+	display:block;
+	width:442px;
+	height:37px;
+	padding:0;
+	margin:0;
+	float:left;
+	margin-top:8px;
+
+	color:#ffffff;
+	font-size:25px;
+	font-family: 'Conv_HouseSlant-Regular';
+	text-transform:uppercase;
+	line-height:100%;
+}
+#submitpages .top .righttop
+{
+	display:block;
+	width:87px;
+	height:38px;
+	padding:0;
+	margin:0;
+	padding-top:13px;
+	float:left;
+	color:#90a0a8;
+	font-size:15px;
+	font-family: 'Proxima Nova Regular';
+}
+
+#submitpages .right
+{
+	width:100%;
+	min-width:540px;
+	height:auto;
+	min-height:562px;
+	padding:0;
+	margin:0 auto;	
+	float:left;
+	background:#ffffff;
+}
+#submitpages .right .right1
+{
+	width:100%;
+	min-width:540px;
+	min-height:562px;
+	padding:0;
+	margin:0 auto;
+	border:0;
+	padding-bottom:15px!important;
+}
+
+#submitpages .right1 .heading
+{
+	display:none;
+}
+#submitpages .right1 .heading2
+{
+	display:block;
+	width:540px;
+	height:51px;
+	padding:0;
+	margin:0 auto;
+	padding-top:20px;
+	color:#454545;
+	font-size:42px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-2px;
+}
+#submitpages .right1 .map
+{
+	width:540px;
+	height:223px;
+	padding:0;
+	margin:0 auto;
+	margin-top:16px;
+	background:#eeeeee;
+}
+
+#submitpages .right1 .addressdisplay
+{
+	width:540px;
+	min-height:45px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	color:#454545;
+	font-size:25px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-1px;
+	float:none;
+}
+#submitpages .right1 .buttons
+{
+	width:100%;
+	min-width:540px;
+	height:134px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+
+
+}
+
+#submitpages .right1 .buttons .button1
+{
+	width:474px;
+	height:66px;
+	padding:0;
+	margin:0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#06c09c;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	border:none;
+	float:none;
+	
+}
+#submitpages .right1 .buttons .button2
+{
+	display:block;
+	width:474px;
+	height:45px;
+	padding:0;
+	margin:0 auto;
+	margin-top:5px;
+	padding-top:21px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#d17373;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	text-align:center;
+	border:0;
+	text-decoration:none;
+	float:none;
+}
+#submit1bottom
+{
+	display:none;
+}
+
+/** page 2 ends ***/
+/** page 3 beggins **/
+
+
+
+#submitpages .right2
+{
+	
+	width:100%;
+	min-width:507px;
+	height:562px;
+	padding:0;
+	margin:0 auto;
+	background:#ffffff;
+	border:0;
+	float:none;
+}
+#submitpages .right2 .heading2
+{
+	display:none;
+
+}
+#submitpages .right2 .heading22
+{
+	display:block;
+	width:507px;
+	height:123px;
+	padding:0;
+	margin:0 auto;
+	padding-top:25px;
+	color:#454545;
+	font-size:42px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	overflow:hidden;
+
+}
+
+#submitpages .right2 .inputs
+{
+	width:440px;
+	height:278px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right2 .label
+{
+	width:139px;
+	height:36px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:25px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:11px;
+	padding-top:6px;
+	float:left;
+}
+#submitpages .right2 .inputbox
+{
+	width:288px;
+	height:22px;
+	padding:0;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	color:#454545;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right2 select
+{
+	width:128px;
+	height:42px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:10px;	
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+.validationerror
+{
+	display:none;
+	width:440px;
+	height:22px !important;
+	padding:0;
+	margin:0;
+	margin-top:-28px;	
+	padding-top:4px;
+	color:#ffffff;
+	background:#cf4e4e;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	position:absolute;
+}
+#submitpages .right2 .button
+{
+	width:507px;
+	height:77px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
+#submitpages .right2 .button a
+{
+	width:471px;
+	height:50px;
+	padding:0;
+	padding-top:16px;
+	margin:0 auto;
+	color:#ffffff;
+	font-size:27px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align:center;
+	
+}
+#submitpages .right2 .buttonbottom
+{
+	display:block;
+	width:507px;
+	height:39px;
+	padding:0;
+	margin:0 auto;
+	color:#5e5e5e;
+	font-size:12px;
+	font-family: 'GothamBook';
+	text-align:center;
+	
+}
+
+
+
+
+/** page 3 ends  **/ 
+
+/** page 4 beggins */
+
+#submitpages .right3
+{
+	width:549px;
+	height:381px;
+	padding:0;
+	margin:0 auto;	
+	border:none;
+	float:none;
+}
+
+#submitpages .right3 .heading
+{
+	display:none;
+
+}
+#submitpages .right3 .heading2
+{
+	display:block;
+	width:549px;
+	height:122px;
+	padding:0;
+	margin:0 auto;
+	padding-top:22px;
+	color:#454545;
+	font-size:42px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+
+}
+#submitpages .right3 .inputs
+{
+	width:420px;
+	height:126px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right3 .label
+{
+	width:118px;
+	height:36px;
+	padding:0;
+	margin:0;	
+	padding-top:9px;
+	color:#454545;
+	font-size:22px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:11px;
+	float:left;
+}
+#submitpages .right3 .inputbox
+{
+	width:285px;
+	height:22px;
+	padding:0;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	text-align:left;
+	color:#454545;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right3 select
+{
+	width:302px;
+	height:44px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:24px;	
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+#submitpages .right3 .button
+{
+	width:549px;
+	height:64px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#submitpages .right3 .button button
+{
+	width:473px;
+	height:64px;	
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:27px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+/** page 4 ends  */
+/** start page 5 **/
+#headerwrapperthanks
+{
+	display:none;
+}
+
+#submitpages .right4
+{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	border:none;
+	background:none;
+	
+}
+#submitpages .right4 .heading
+{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	padding-bottom:10%;
+	text-align:center;
+	font-size:3.8em;
+	line-height:100%;
+	
+}
+#submitpages .right4 .subheading
+{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	padding-bottom:10%;
+	text-align:center;
+	font-size:1.8em;
+	line-height:100%;
+	
+}
+#submitpages .right4 .heading2, #submitpages .right4 .icons
+{
+	display:none;
+}
+/**  end page 5 **/
+
+#footericons.footercustom{
+	padding-right:63px;
+	background-size:62px;
+}
+
+
+
+}
+/** end 600 **/
+
+/** begin 480 **/
+@media screen and (max-width: 480px){
+	
+	
+	
+#copyright.footercustom,#copyright2.footercustom{
+	width:68%!important;
+	padding-right:2%;
+}
+
+#footericons.footercustom{
+	width:30%!important;
+	padding-right:0;
+	background-position:bottom;
+	padding-bottom:26px;
+}
+
+#footericons.footercustom div{
+	vertical-align:bottom;
+}
+
+	
+	
+.home
+{
+	background: #ffffff url("../images/bodybg480.jpg") top center no-repeat; 
+}
+	#headerwrapper
+	{	
+	display:none;
+	}
+	#formwrapper
+	{
+		width:441px;
+		height:414px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#form
+	{
+		width:441px;
+		height:414px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#formheading
+	{
+		width:441px;
+		height:133px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:75px;
+		font-family: 'Proxima Nova Bold';
+		text-align:center;
+		letter-spacing:-1px;
+		line-height:80%;
+		padding-top:60px;
+	}
+        #hidden-resizer
+{
+	font-size:75px;
+	font-family: 'Proxima Nova Bold';
+	letter-spacing:-1px;
+	line-height:80%;
+}
+	#formsubheading
+	{
+		width:441px;
+		height:84px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:36px;
+		font-family: 'Proxima Nova Light';
+		text-align:center;
+	}
+#addresswrapper
+{
+	width:441px;
+	height:68px;
+	padding:0;
+	margin:0 auto;
+	
+}
+.address
+{
+	width:298px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-left:20px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:19px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.address_unit_hash
+{
+	width:238px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-left:20px;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:19px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.unit_hash
+{
+	width:60px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-top:18px;
+	padding-bottom:17px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:19px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#addresswrapper .button
+{
+	width:122px;
+	height:65px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:#51c124 url("../images/findhomebutton480.png") bottom center no-repeat;
+	border:0;
+	
+}
+
+	#addressbottom
+	{
+		display:none;
+	}
+	
+	#homeicons2
+	{
+		width:441px;
+		height:442px;
+		padding:0;
+		margin:0 auto;
+		background:url("../images/homeicons2480.png") top center no-repeat;
+	}
+	
+#testimonials
+{
+	width:326px;
+	height:442px;
+	padding:0;
+	margin:0 auto;
+
+}
+#testimonials .cell1
+{
+	width:326px;
+	height:202px;
+	padding:0;
+	margin:0;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	clear:both;
+}
+#testimonials .cell2
+{
+	clear:both;
+	width:289px;
+	height:139px;
+	padding:0;
+	margin:0 auto;
+	margin-top:53px !important;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	float:none;
+}
+#testimonials .cell1 .text
+{
+	width:300px;
+	height:102px;
+	padding:0;
+	margin:0;
+	padding-left:36px;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	letter-spacing:1px;
+}
+#testimonials .cell2 .text
+{
+	width:263px;
+	height:75px;
+	padding:0;
+	margin:0;
+	padding-left:36px;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+}
+#testimonials .cell1 .img
+{
+	width:64px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi1photo.png") top left no-repeat;
+}
+ #testimonials .cell2 .img
+{
+	width:64px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:30px;
+	float:left;
+	background:url("../images/testi2photo.png") top left no-repeat;
+}
+#testimonials .cell1 .author, #testimonials .cell2 .author
+{
+	width:193px;
+	height:41px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#testimonials .cell1 .author .name, #testimonials  .cell2 .author .name
+{
+	width:193px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	float:left;
+	color:#ffffff;
+	font-size:13px;
+	font-family: 'Conv_Gotham-Bold';
+	text-transform:uppercase;
+	line-height:100%;
+	opacity: 0.85;
+}
+#testimonials .cell1 .author .tgaline, #testimonials  .cell2  .author .tgaline
+{
+	width:193px;
+	height:21px;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+	font-size:12px;
+	font-family: 'GothamBook';
+	line-height:100%;
+	opacity: 0.85;
+}
+
+#footerwrapper
+{
+	width:100%;
+	height:77px;
+	min-width:446px !important;
+	padding:0;
+	margin:0;
+	background:#cccccc;
+	overflow:hidden;
+	padding-top:19px;
+
+}
+#footer
+{
+	width:446px;
+	height:77px;
+	padding:0;
+	margin:0 auto;
+}
+
+#footericons
+{
+	width:86px;
+	height:40px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:url("../images/footericons600.png") center center no-repeat;
+
+}
+#footerlogo
+{
+	width:366px;
+	height:18px;
+	padding:0;
+	margin:0;
+	background:url("../images/footerlogo600.png.html") top left no-repeat;
+
+}
+#copyright
+{
+	width:359px;
+	height:15px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	padding-top:5px;
+	float:left;
+
+}
+#copyright2
+{
+	width:359px;
+	height:30px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:0px;
+	padding-top:4px;
+	float:left;
+
+}
+#copyright a , #copyright2 a
+{
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	text-decoration:underline;
+	
+}
+
+#toswrapper
+{
+	width:280px;
+	height:650px;
+	padding:0;
+	margin:0 auto;
+}
+
+#tosheading
+{
+	width:280px;
+	height:37px;
+	padding:0;
+	padding-top:45px;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Light';
+	font-size:22px;
+	line-height:100%;
+	
+}
+#tostextbg
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	background:#ffffff;
+	opacity:.87;
+	
+}
+#tostext
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	margin:0;
+	color:#575757;
+	font-family:'Proxima Nova Light';
+	font-size:9px;
+
+}
+.content{
+	overflow: auto;
+	position: relative;
+	width: 280px;
+	height: 435px;
+	padding:20px;
+	background:none;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+#tosbuttonwrapper
+{
+	width:280px;
+	height:174px;
+	padding:0;
+	margin:0;
+	padding-top:31px;
+	text-align:center;
+}
+
+.tosbutton
+{
+	width:250px;
+	height:64px;
+	padding:0;
+	margin:0;
+	background:#53e5ad url("../images/buttonbg.jpg.html") bottom left repeat-x;
+	font-size:20px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	border:none;
+
+}
+	
+	/* end page1 ***/
+
+/** pae 2 begins **/ 
+
+#submitpages
+{
+	width:100%;
+	min-height:610px;
+	min-width:440px;
+	padding:0;
+	margin:0 auto;	
+	overflow:hidden;
+	padding-top:14px;
+	
+}
+#submitpages .left
+{
+	display:none;
+}
+#submitpages .top
+{
+	display:block;
+	width:440px;
+	height:44px;
+	padding:0;
+	margin:0 auto;
+}
+#submitpages .top .lefttop
+{
+	display:block;
+	width:352px;
+	height:34px;
+	padding:0;
+	margin:0;
+	float:left;
+	margin-top:10px;
+
+	color:#ffffff;
+	font-size:22px;
+	font-family: 'Conv_HouseSlant-Regular';
+	text-transform:uppercase;
+	line-height:100%;
+}
+#submitpages .top .righttop
+{
+	display:block;
+	width:87px;
+	height:37px;
+	padding:0;
+	margin:0;
+	padding-top:13px;
+	float:left;
+	color:#90a0a8;
+	font-size:15px;
+	font-family: 'Proxima Nova Regular';
+}
+
+#submitpages .right
+{
+	width:100%;
+	min-width:440px;
+	min-height:562px;
+	padding:0;
+	margin:0 auto;	
+	float:left;
+	background:#ffffff;
+}
+#submitpages .right .right1
+{
+	width:100%;
+	min-width:440px;
+	min-height:562px;
+	padding:0;
+	margin:0 auto;
+	border:0;
+}
+
+#submitpages .right1 .heading
+{
+	display:none;
+}
+#submitpages .right1 .heading2
+{
+	display:block;
+	width:320px;
+	height:85px;
+	padding:0;
+	margin:0 auto;
+	padding-top:20px;
+	color:#454545;
+	font-size:42px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-2px;
+	line-height:90%;
+}
+#submitpages .right1 .map
+{
+	width:440px;
+	height:223px;
+	padding:0;
+	margin:0 auto;
+	margin-top:16px;
+	background:#eeeeee;
+}
+
+#submitpages .right1 .addressdisplay
+{
+	width:440px;
+	min-height:47px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	color:#454545;
+	font-size:25px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-1px;
+	float:none;
+}
+#submitpages .right1 .buttons
+{
+	width:100%;
+	min-width:440px;
+	height:134px;
+	padding:0;
+	margin:0 auto;
+	float:none;
+	text-align:center;
+}
+
+#submitpages .right1 .buttons .button1
+{
+	width:440px;
+	height:66px;
+	padding:0;
+	margin:0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#06c09c;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	border:none;
+	float:none;
+	
+}
+#submitpages .right1 .buttons .button2
+{
+	display:block;
+	width:440px;
+	height:45px;
+	padding:0;
+	margin:0 auto;
+	margin-top:5px;
+	padding-top:21px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#d17373;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	text-align:center;
+	border:0;
+	text-decoration:none;
+	float:none;
+}
+#submit1bottom
+{
+	display:none;
+}
+
+/** page 2 ends ***/
+
+/** page 3 beggins **/
+
+
+
+
+#submitpages .right2
+{
+	
+	width:100%;
+	min-width:440px;
+	height:491px;
+	padding:0;
+	margin:0 auto;
+	background:#ffffff;
+	border:0;
+	overflow:hidden;
+	
+}
+#submitpages .right2 .heading2
+{
+	display:none;
+
+}
+#submitpages .right2 .heading22
+{
+	display:block;
+	width:440px;
+	height:108px;
+	padding:0;
+	margin:0 auto;
+	padding-top:22px;
+	color:#454545;
+	font-size:36px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	overflow:hidden;
+
+}
+
+#submitpages .right2 .inputs
+{
+	width:382px;
+	height:239px;
+	padding:0;
+	margin:0 auto;
+	
+}
+
+#submitpages .right2 .label
+{
+	width:121px;
+	height:31px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:21px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:11px;
+	padding-top:3px;
+	float:left;
+}
+#submitpages .right2 .inputbox
+{
+	width:248px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:10px;
+	color:#454545;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:14px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right2 select
+{
+	width:110px;
+	height:33px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:10px;	
+	color:#ffffff;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+
+.validationerror
+{
+	display:none;
+	width:382px;
+	height:22px !important;
+	padding:0;
+	margin:0;
+	margin-top:-28px;	
+	padding-top:4px;
+	color:#ffffff;
+	background:#cf4e4e;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	position:absolute;
+}
+
+#submitpages .right2 .button
+{
+	width:440px;
+	height:70px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
+#submitpages .right2 .button a
+{
+	width:409px;
+	height:40px;
+	padding:0;
+	padding-top:17px;
+	margin:0 auto;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+#submitpages .right2 .buttonbottom
+{
+	display:block;
+	width:440px;
+	height:23px;
+	padding:0;
+	margin:0 auto;
+	color:#5e5e5e;
+	font-size:11px;
+	font-family: 'GothamBook';
+	text-align:center;
+	
+}
+
+/** page 3 ends  **/ 
+
+
+/** page 4 beggins */
+
+#submitpages .right3
+{
+	width:443px;
+	height:329px;
+	padding:0;
+	margin:0 auto;	
+	border:none;
+}
+
+#submitpages .right3 .heading
+{
+	display:none;
+
+}
+#submitpages .right3 .heading2
+{
+	display:block;
+	width:443px;
+	height:105px;
+	padding:0;
+	margin:0 auto;
+	padding-top:25px;
+	color:#454545;
+	font-size:35px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+
+}
+#submitpages .right3 .inputs
+{
+	width:370px;
+	height:101px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right3 .label
+{
+	width:104px;
+	height:29px;
+	padding:0;
+	margin:0;	
+	padding-top:6px;
+	color:#454545;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:11px;
+	float:left;
+}
+#submitpages .right3 .inputbox
+{
+	width:250px;
+	height:25px;
+	padding:0;
+	margin:0;
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-left:12px;
+	text-align:left;
+	color:#454545;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right3 select
+{
+	width:262px;
+	height:37px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:20px;	
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+#submitpages .right3 .button
+{
+	width:443px;
+	height:72px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#submitpages .right3 .button button
+{
+	width:412px;
+	height:58px;	
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:23px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+/** page 4 ends  */
+
+}
+/** end 480 **/
+
+
+/** begin 384 **/
+@media screen and (max-width: 384px){
+	
+.home
+{
+	background: #ffffff url("../images/bodybg384.jpg") top center no-repeat; 
+}
+	#headerwrapper
+	{	
+	display:none;
+	}
+	#formwrapper
+	{
+		width:353px;
+		height:330px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#form
+	{
+		width:353px;
+		height:330px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#formheading
+	{
+		width:353px;
+		height:115px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:60px;
+		font-family: 'Proxima Nova Bold';
+		text-align:center;
+		letter-spacing:-1px;
+		line-height:80%;
+		padding-top:60px;
+	}
+                #hidden-resizer
+{
+	font-size:60px;
+	font-family: 'Proxima Nova Bold';
+	letter-spacing:-1px;
+	line-height:80%;
+}
+	#formsubheading
+	{
+		width:353px;
+		height:67px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:29px;
+		font-family: 'Proxima Nova Light';
+		text-align:center;
+	}
+#addresswrapper
+{
+	width:353px;
+	height:65px;
+	padding:0;
+	margin:0 auto;
+	
+}
+.address
+{
+	width:240px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-left:17px;
+	padding-top:14px;
+	padding-bottom:14px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.address_unit_hash
+{
+	width:180px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-left:17px;
+	padding-top:14px;
+	padding-bottom:14px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.unit_hash
+{
+	width:60px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-top:14px;
+	padding-bottom:14px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#addresswrapper .button
+{
+	width:96px;
+	height:55px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:#51c124 url("../images/findhomebutton384.png") bottom center no-repeat;
+	border:0;
+	
+}
+
+	#addressbottom
+	{
+		display:none;
+	}
+	
+	#homeicons2
+	{
+		width:353px;
+		height:356px;
+		padding:0;
+		margin:0 auto;
+		background:url("../images/homeicons2384.png") top center no-repeat;
+	}
+#testimonials
+{
+	width:262px;
+	height:356px;
+	padding:0;
+	margin:0 auto;
+
+}
+#testimonials .cell1
+{
+	width:269px;
+	height:165px;
+	padding:0;
+	margin:0;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	clear:both;
+}
+#testimonials .cell2
+{
+	clear:both;
+	width:233px;
+	height:116px;
+	padding:0;
+	margin:0 auto;
+	margin-top:43px !important;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	float:none;
+}
+#testimonials .cell1 .text
+{
+	width:240px;
+	height:83px;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	color:#ffffff;
+	font-size:14px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	letter-spacing:1px;
+	line-height:115%;
+}
+#testimonials .cell2 .text
+{
+	width:203px;
+	height:75px;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	color:#ffffff;
+	font-size:14px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	line-height:115%;
+}
+#testimonials .cell1 .img
+{
+	width:54px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:20px;
+	float:left;
+	background:url("../images/testi1photo384.png") top left no-repeat;
+}
+ #testimonials .cell2 .img
+{
+	width:54px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:20px;
+	float:left;
+	background:url("../images/testi2photo384.png") top left no-repeat;
+}
+#testimonials .cell1 .author, #testimonials .cell2 .author
+{
+	width:153px;
+	height:41px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#testimonials .cell1 .author .name, #testimonials  .cell2 .author .name
+{
+	width:153px;
+	height:17px;
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	float:left;
+	color:#ffffff;
+	font-size:11px;
+	font-family: 'Conv_Gotham-Bold';
+	text-transform:uppercase;
+	line-height:100%;
+	opacity: 0.85;
+}
+#testimonials .cell1 .author .tgaline, #testimonials  .cell2  .author .tgaline
+{
+	width:153px;
+	height:18px;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+	font-size:10px;
+	font-family: 'GothamBook';
+	line-height:100%;
+	opacity: 0.85;
+}
+
+#footerwrapper
+{
+	width:100%;
+	height:77px;
+	min-width:357px !important;
+	padding:0;
+	margin:0;
+	background:#cccccc;
+	overflow:hidden;
+	padding-top:19px;
+
+}
+#footer
+{
+	width:357px;
+	height:77px;
+	padding:0;
+	margin:0 auto;
+}
+
+#footericons
+{
+	width:86px;
+	height:40px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:url("../images/footericons600.png") center center no-repeat;
+
+}
+#footerlogo
+{
+	width:270px;
+	height:18px;
+	padding:0;
+	margin:0;
+	background:url("../images/footerlogo600.png.html") top left no-repeat;
+
+}
+#copyright
+{
+	width:270px;
+	height:15px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	padding-top:5px;
+	float:left;
+
+}
+#copyright2
+{
+	width:270px;
+	height:30px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:0px;
+	padding-top:4px;
+	float:left;
+
+}
+#copyright a , #copyright2 a
+{
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:12px;
+	text-decoration:underline;
+	
+}
+
+#toswrapper
+{
+	width:280px;
+	height:650px;
+	padding:0;
+	margin:0 auto;
+}
+
+#tosheading
+{
+	width:280px;
+	height:37px;
+	padding:0;
+	padding-top:45px;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Light';
+	font-size:22px;
+	line-height:100%;
+	
+}
+#tostextbg
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	background:#ffffff;
+	opacity:.87;
+	
+}
+#tostext
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	margin:0;
+	color:#575757;
+	font-family:'Proxima Nova Light';
+	font-size:9px;
+
+}
+.content{
+	overflow: auto;
+	position: relative;
+	width: 280px;
+	height: 435px;
+	padding:20px;
+	background:none;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+#tosbuttonwrapper
+{
+	width:280px;
+	height:174px;
+	padding:0;
+	margin:0;
+	padding-top:31px;
+	text-align:center;
+}
+
+.tosbutton
+{
+	width:250px;
+	height:64px;
+	padding:0;
+	margin:0;
+	background:#53e5ad url("../images/buttonbg.jpg.html") bottom left repeat-x;
+	font-size:20px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	border:none;
+
+}
+
+	/* end page1 ***/
+
+/** pae 2 begins **/ 
+
+#submitpages
+{
+	width:100%;
+	min-height:485px;
+	min-width:352px;
+	padding:0;
+	margin:0 auto;	
+	overflow:hidden;
+	padding-top:16px;
+	
+}
+#submitpages .left
+{
+	display:none;
+}
+#submitpages .top
+{
+	display:block;
+	width:352px;
+	height:35px;
+	padding:0;
+	margin:0 auto;
+}
+#submitpages .top .lefttop
+{
+	display:block;
+	width:282px;
+	height:30px;
+	padding:0;
+	margin:0;
+	float:left;
+	margin-top:3px;
+
+	color:#ffffff;
+	font-size:19px;
+	font-family: 'Conv_HouseSlant-Regular';
+	text-transform:uppercase;
+	line-height:100%;
+}
+#submitpages .top .righttop
+{
+	display:block;
+	width:70px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-top:7px;
+	float:left;
+	color:#90a0a8;
+	font-size:11px;
+	font-family: 'Proxima Nova Regular';
+}
+
+#submitpages .right
+{
+	width:100%;
+	min-width:352px;
+	min-height:450px;
+	padding:0;
+	margin:0 auto;	
+	float:left;
+	background:#ffffff;
+}
+#submitpages .right .right1
+{
+	width:100%;
+	min-width:352px;
+	min-height:450px;
+	padding:0;
+	margin:0 auto;
+	border:0;
+}
+
+#submitpages .right1 .heading
+{
+	display:none;
+}
+#submitpages .right1 .heading2
+{
+	display:block;
+	width:250px;
+	height:70px;
+	padding:0;
+	margin:0 auto;
+	padding-top:16px;
+	color:#454545;
+	font-size:34px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-2px;
+	line-height:90%;
+}
+#submitpages .right1 .map
+{
+	width:352px;
+	height:178px;
+	padding:0;
+	margin:0 auto;
+	margin-top:14px;
+	background:#eeeeee;
+}
+
+#submitpages .right1 .addressdisplay
+{
+	width:352px;
+	min-height:36px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	color:#454545;
+	font-size:19px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-1px;
+	float:none;
+}
+#submitpages .right1 .buttons
+{
+	width:100%;
+	min-width:352px;
+	height:120px;
+	padding:0;
+	margin:0 auto;
+	float:none;
+	text-align:center;
+}
+
+#submitpages .right1 .buttons .button1
+{
+	width:352px;
+	height:56px;
+	padding:0;
+	margin:0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#06c09c;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	border:none;
+	float:none;
+	
+}
+#submitpages .right1 .buttons .button2
+{
+	display:block;
+	width:352px;
+	height:41px;
+	padding:0;
+	margin:0 auto;
+	margin-top:5px;
+	padding-top:22px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#d17373;
+	color:#ffffff;
+	font-size:24px;
+	font-family: 'GothamBook';
+	text-align:center;
+	border:0;
+	text-decoration:none;
+	float:none;
+}
+#submit1bottom
+{
+	display:none;
+}
+
+/** page 2 ends ***/
+
+/** page 3 beggins **/
+#submitpages .right2
+{
+	
+	width:100%;
+	min-width:355px;
+	height:430px;
+	padding:0;
+	margin:0 auto;
+	background:#ffffff;
+	border:0;
+	overflow:hidden;
+	
+}
+#submitpages .right2 .heading2
+{
+	display:none;
+
+}
+#submitpages .right2 .heading22
+{
+	display:block;
+	width:355px;
+	height:86px;
+	padding:0;
+	margin:0 auto;
+	padding-top:17px;
+	color:#454545;
+	font-size:29px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	overflow:hidden;
+
+}
+
+#submitpages .right2 .inputs
+{
+	width:308px;
+	height:209px;
+	padding:0;
+	margin:0 auto;
+	
+}
+
+#submitpages .right2 .label
+{
+	width:99px;
+	height:27px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:18px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:10px;
+	padding-top:5px;
+	float:left;
+}
+#submitpages .right2 .inputbox
+{
+	width:195px;
+	height:28px;
+	padding:0;
+	margin:0;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:8px;
+	color:#454545;
+	font-size:13px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:10px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right2 select
+{
+	width:79px;
+	height:31px;
+	padding:0;
+	margin:0;
+
+	padding-left:8px;	
+	padding-right:10px;	
+	color:#ffffff;
+	font-size:13px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+.validationerror
+{
+	display:none;
+	width:308px;
+	height:22px !important;
+	padding:0;
+	margin:0;
+	margin-top:-28px;	
+	padding-top:4px;
+	color:#ffffff;
+	background:#cf4e4e;
+	font-size:13px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	position:absolute;
+}
+
+#submitpages .right2 .button
+{
+	width:355px;
+	height:53px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
+#submitpages .right2 .button a
+{
+	width:329px;
+	height:36px;
+	padding:0;
+	padding-top:10px;
+	margin:0 auto;
+	color:#ffffff;
+	font-size:23px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+#submitpages .right2 .buttonbottom
+{
+	display:block;
+	width:355px;
+	height:16px;
+	padding:0;
+	margin:0 auto;
+	color:#5e5e5e;
+	font-size:8px;
+	font-family: 'GothamBook';
+	text-align:center;
+	
+}
+
+/** page 3 ends  **/ 
+
+
+
+/** page 4 beggins */
+
+#submitpages .right3
+{
+	width:359px;
+	height:269px;
+	padding:0;
+	margin:0 auto;	
+	border:none;
+}
+
+#submitpages .right3 .heading
+{
+	display:none;
+
+}
+#submitpages .right3 .heading2
+{
+	display:block;
+	width:359px;
+	height:84px;
+	padding:0;
+	margin:0 auto;
+	padding-top:21px;
+	color:#454545;
+	font-size:25px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+
+}
+#submitpages .right3 .inputs
+{
+	width:294px;
+	height:87px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right3 .label
+{
+	width:84px;
+	height:25px;
+	padding:0;
+	margin:0;	
+	padding-top:6px;
+	color:#454545;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:9px;
+	float:left;
+}
+#submitpages .right3 .inputbox
+{
+	width:190px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:11px;
+	text-align:left;
+	color:#454545;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right3 select
+{
+	width:200px;
+	height:32px;
+	padding:0;
+	margin:0;
+
+	padding-left:10px;	
+	padding-right:20px;	
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+#submitpages .right3 .button
+{
+	width:330px;
+	height:58px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#submitpages .right3 .button button
+{
+	width:330px;
+	height:42px;	
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:20px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+/** page 4 ends  */
+
+}
+/** end 384 **/
+
+
+/** begin 320 **/
+@media screen and (max-width: 320px){
+	
+.home
+{
+	background: #ffffff url("../images/bodybg320.jpg") top center no-repeat; 
+}
+	#headerwrapper
+	{	
+	display:none;
+	}
+	#formwrapper
+	{
+		width:294px;
+		height:275px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#form
+	{
+		width:294px;
+		height:275px;
+		padding:0;
+		margin:0 auto;	
+	}
+	#formheading
+	{
+		width:294px;
+		height:90px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:50px;
+		font-family: 'Proxima Nova Bold';
+		text-align:center;
+		letter-spacing:-1px;
+		line-height:80%;
+		padding-top:39px;
+	}
+                #hidden-resizer
+{
+	font-size:50px;
+	font-family: 'Proxima Nova Bold';
+	letter-spacing:-1px;
+	line-height:80%;
+}
+	#formsubheading
+	{
+		width:294px;
+		height:55px;
+		padding:0;
+		margin:0 auto;	
+		color:#ffffff;
+		font-size:24px;
+		font-family: 'Proxima Nova Light';
+		text-align:center;
+	}
+#addresswrapper
+{
+	width:294px;
+	height:47px;
+	padding:0;
+	margin:0 auto;
+	
+}
+.address
+{
+	width:200px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-left:13px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.address_unit_hash
+{
+	width:150px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-left:13px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.unit_hash
+{
+	width:50px;
+	height:27px;
+	padding:0;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#6c6c6c;
+	background:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:15px;
+	font-weight:normal;
+	float:left;
+	border:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#addresswrapper .button
+{
+	width:81px;
+	height:47px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:#51c124 url("../images/findhomebutton320.png") bottom center no-repeat;
+	border:0;
+	
+}
+
+	#addressbottom
+	{
+		display:none;
+	}
+	
+	#homeicons2
+	{
+		width:294px;
+		height:296px;
+		padding:0;
+		margin:0 auto;
+		background:url("../images/homeicons2320.png") top center no-repeat;
+	}
+
+#testimonials
+{
+	width:220px;
+	height:296px;
+	padding:0;
+	margin:0 auto;
+
+}
+#testimonials .cell1
+{
+	width:230px;
+	height:137px;
+	padding:0;
+	margin:0;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	clear:both;
+}
+#testimonials .cell2
+{
+	clear:both;
+	width:194px;
+	height:92px;
+	padding:0;
+	margin:0 auto;
+	margin-top:23px !important;
+	background:url("../images/testiquotes480.png") top left no-repeat;
+	float:none;
+}
+#testimonials .cell1 .text
+{
+	width:205px;
+	height:70px;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	color:#ffffff;
+	font-size:11px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	letter-spacing:1px;
+	line-height:115%;
+}
+#testimonials .cell2 .text
+{
+	width:164px;
+	height:75px;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	color:#ffffff;
+	font-size:11px;
+	font-family: 'Conv_Calluna-It';
+	opacity: 0.7;
+	line-height:115%;
+}
+#testimonials .cell1 .img
+{
+	width:54px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:20px;
+	float:left;
+	background:url("../images/testi1photo384.png") top left no-repeat;
+}
+ #testimonials .cell2 .img
+{
+	width:50px;
+	height:53px;
+	padding:0;
+	margin:0;
+	margin-left:15px;
+	float:left;
+	background:url("../images/testi2photo384.png") top left no-repeat;
+}
+#testimonials .cell1 .author, #testimonials .cell2 .author
+{
+	width:129px;
+	height:41px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+#testimonials .cell1 .author .name, #testimonials  .cell2 .author .name
+{
+	width:129px;
+	height:10px;
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	float:left;
+	color:#ffffff;
+	font-size:9px;
+	font-family: 'Conv_Gotham-Bold';
+	text-transform:uppercase;
+	line-height:100%;
+	opacity: 0.85;
+}
+#testimonials .cell1 .author .tgaline, #testimonials  .cell2  .author .tgaline
+{
+	width:129px;
+	height:18px;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#ffffff;
+	font-size:8px;
+	font-family: 'GothamBook';
+	line-height:100%;
+	opacity: 0.85;
+}
+
+
+#footerwrapper
+{
+	width:100%;
+	height:77px;
+	min-width:289px !important;
+	padding:0;
+	margin:0;
+	background:#cccccc;
+	overflow:hidden;
+	padding-top:19px;
+
+}
+#footer
+{
+	width:289px;
+	height:77px;
+	padding:0;
+	margin:0 auto;
+}
+
+#footericons
+{
+	width:86px;
+	height:40px;
+	padding:0;
+	margin:0;
+	float:left;
+	background:url("../images/footericons600.png") center center no-repeat;
+
+}
+#footerlogo
+{
+	width:203px;
+	height:18px;
+	padding:0;
+	margin:0;
+	background:url("../images/footerlogo320.png.html") top left no-repeat;
+
+}
+#copyright
+{
+	width:203px;
+	height:15px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	padding-top:5px;
+	float:left;
+
+}
+#copyright2
+{
+	width:203px;
+	height:30px;
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	padding-top:4px;
+	float:left;
+
+}
+#copyright a , #copyright2 a
+{
+	color:#ffffff;
+	font-family:'Proxima Nova Regular';
+	font-size:10px;
+	text-decoration:underline;
+	
+}
+
+#toswrapper
+{
+	width:280px;
+	height:650px;
+	padding:0;
+	margin:0 auto;
+}
+
+#tosheading
+{
+	width:280px;
+	height:37px;
+	padding:0;
+	padding-top:45px;
+	margin:0;
+	color:#ffffff;
+	font-family:'Proxima Nova Light';
+	font-size:22px;
+	line-height:100%;
+	
+}
+#tostextbg
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	background:#ffffff;
+	opacity:.87;
+	
+}
+#tostext
+{
+	width:280px;
+	height:435px;
+	padding:0;
+	margin:0;
+	color:#575757;
+	font-family:'Proxima Nova Light';
+	font-size:9px;
+
+}
+.content{
+	overflow: auto;
+	position: relative;
+	width: 280px;
+	height: 435px;
+	padding:20px;
+	background:none;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+#tosbuttonwrapper
+{
+	width:280px;
+	height:174px;
+	padding:0;
+	margin:0;
+	padding-top:31px;
+	text-align:center;
+}
+
+.tosbutton
+{
+	width:250px;
+	height:64px;
+	padding:0;
+	margin:0;
+	background:#53e5ad url("../images/buttonbg.jpg.html") bottom left repeat-x;
+	font-size:20px;
+	color:#ffffff;
+	font-family: 'Proxima Nova Semibold';
+	border:none;
+
+}
+
+	/* end page1 ***/
+
+	
+/** pae 2 begins **/ 
+
+#submitpages
+{
+	width:100%;
+	min-height:392px;
+	min-width:284px;
+	padding:0;
+	margin:0 auto;	
+	overflow:hidden;
+	padding-top:16px;
+	
+}
+#submitpages .left
+{
+	display:none;
+}
+#submitpages .top
+{
+	display:block;
+	width:284px;
+	height:28px;
+	padding:0;
+	margin:0 auto;
+}
+#submitpages .top .lefttop
+{
+	display:block;
+	width:229px;
+	height:24px;
+	padding:0;
+	margin:0;
+	margin-top:1px;
+	float:left;
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Conv_HouseSlant-Regular';
+	text-transform:uppercase;
+	line-height:100%;
+}
+#submitpages .top .righttop
+{
+	display:block;
+	width:55px;
+	height:24px;
+	padding:0;
+	margin:0;
+	padding-top:5px;
+	float:left;
+	color:#90a0a8;
+	font-size:10px;
+	font-family: 'Proxima Nova Regular';
+}
+
+#submitpages .right
+{
+	width:100%;
+	min-width:284px;
+	min-height:364px;
+	padding:0;
+	margin:0 auto;	
+	float:left;
+	background:#ffffff;
+}
+#submitpages .right .right1
+{
+	width:100%;
+	min-width:284px;
+	min-height:364px;
+	padding:0;
+	margin:0 auto;
+	border:0;
+}
+
+#submitpages .right1 .heading
+{
+	display:none;
+}
+#submitpages .right1 .heading2
+{
+	display:block;
+	width:214px;
+	height:58px;
+	padding:0;
+	margin:0 auto;
+	padding-top:14px;
+	color:#454545;
+	font-size:27px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-2px;
+	line-height:90%;
+}
+#submitpages .right1 .map
+{
+	width:284px;
+	height:145px;
+	padding:0;
+	margin:0 auto;
+	margin-top:14px;
+	background:#eeeeee;
+}
+
+#submitpages .right1 .addressdisplay
+{
+	width:284px;
+	min-height:29px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	color:#454545;
+	font-size:15px;
+	font-family: 'Gothamlight';
+	text-align:center;
+	letter-spacing:-1px;
+	float:none;
+}
+#submitpages .right1 .buttons
+{
+	width:100%;
+	min-width:284px;
+	height:90px;
+	padding:0;
+	margin:0 auto;
+	float:none;
+	text-align:center;
+}
+
+#submitpages .right1 .buttons .button1
+{
+	width:284px;
+	height:43px;
+	padding:0;
+	margin:0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#06c09c;
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'GothamBook';
+	border:none;
+	float:none;
+	
+}
+#submitpages .right1 .buttons .button2
+{
+	display:block;
+	width:284px;
+	height:30px;
+	padding:0;
+	margin:0 auto;
+	margin-top:5px;
+	padding-top:13px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#d17373;
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'GothamBook';
+	text-align:center;
+	border:0;
+	text-decoration:none;
+	float:none;
+}
+#submit1bottom
+{
+	display:none;
+}
+
+/** page 2 ends ***/
+
+
+/** page 3 beggins **/
+#submitpages .right2
+{
+	
+	width:100%;
+	min-width:296px;
+	height:347px;
+	padding:0;
+	margin:0 auto;
+	background:#ffffff;
+	border:0;
+	overflow:hidden;
+	
+}
+#submitpages .right2 .heading2
+{
+	display:none;
+
+}
+#submitpages .right2 .heading22
+{
+	display:block;
+	width:296px;
+	height:71px;
+	padding:0;
+	margin:0 auto;
+	padding-top:14px;
+	color:#454545;
+	font-size:22px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-1px;
+	overflow:hidden;
+
+}
+
+#submitpages .right2 .inputs
+{
+	width:257px;
+	height:175px;
+	padding:0;
+	margin:0 auto;
+	
+}
+
+#submitpages .right2 .label
+{
+	width:82px;
+	height:23px;
+	padding:0;
+	margin:0;	
+	color:#454545;
+	font-size:15px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:6px;
+	padding-top:4px;
+	float:left;
+}
+#submitpages .right2 .inputbox
+{
+	width:165px;
+	height:20px;
+	padding:0;
+	margin:0;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:8px;
+	color:#454545;
+	font-size:12px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:10px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right2 select
+{
+	width:90px;
+	height:25px;
+	padding:0;
+	margin:0;
+
+	padding-left:8px;	
+	padding-right:10px;	
+	color:#ffffff;
+	font-size:12px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+.validationerror
+{
+	display:none;
+	width:256px;
+	height:18px !important;
+	padding:0;
+	margin:0;
+	margin-top:-24px;	
+	padding-top:4px;
+	color:#ffffff;
+	background:#cf4e4e;
+	font-size:10px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	position:absolute;
+}
+
+#submitpages .right2 .button
+{
+	width:296px;
+	height:45px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	float:none;
+}
+#submitpages .right2 .button a
+{
+	width:276px;
+	height:28px;
+	
+	padding:0;
+	padding-top:10px;
+	margin:0 auto;
+	color:#ffffff;
+	font-size:15px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+#submitpages .right2 .buttonbottom
+{
+	display:block;
+	width:296px;
+	height:16px;
+	padding:0;
+	margin:0 auto;
+	color:#5e5e5e;
+	font-size:7px;
+	font-family: 'GothamBook';
+	text-align:center;
+	
+}
+
+/** page 3 ends  **/ 
+/** page 4 beggins */
+
+#submitpages .right3
+{
+	width:296px;
+	height:223px;
+	padding:0;
+	margin:0 auto;	
+	border:none;
+}
+
+#submitpages .right3 .heading
+{
+	display:none;
+
+}
+#submitpages .right3 .heading2
+{
+	display:block;
+	width:296px;
+	height:70px;
+	padding:0;
+	margin:0 auto;
+	padding-top:17px;
+	color:#454545;
+	font-size:25px;
+	font-family: 'Proxima Nova Light';
+	text-align:center;
+	letter-spacing:-2px;
+	overflow:hidden;
+
+}
+#submitpages .right3 .inputs
+{
+	width:244px;
+	height:74px;
+	padding:0;
+	margin:0 auto;
+}
+
+#submitpages .right3 .label
+{
+	width:68px;
+	height:21px;
+	padding:0;
+	margin:0;	
+	padding-top:4px;
+	color:#454545;
+	font-size:12px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:8px;
+	float:left;
+}
+#submitpages .right3 .inputbox
+{
+	width:164px;
+	height:17px;
+	padding:0;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	text-align:left;
+	color:#454545;
+	font-size:14px;
+	font-family: 'Proxima Nova Light';
+	margin-bottom:16px;
+	border:1px solid #868686;
+	float:left;
+}
+#submitpages .right3 select
+{
+	width:176px;
+	height:26px;
+	padding:0;
+	margin:0;
+	padding-left:10px;	
+	padding-right:20px;	
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Proxima Nova Light';
+	float:left;
+	background:#868686;
+}
+
+#submitpages .right3 .button
+{
+	width:276px;
+	height:50px;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#submitpages .right3 .button button
+{
+	width:276px;
+	height:	38px;	
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Conv_Gotham-Bold';
+	background:#06c09c;
+	border:none;	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+/** page 4 ends  */
+
+}
+/** end 320 **/
+
+.requiredfield:focus
+{
+-webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+-moz-box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+}
